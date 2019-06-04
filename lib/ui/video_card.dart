@@ -1,4 +1,4 @@
-import 'package:flutter_staggered_animations/models.dart';
+import 'package:flutter_staggered_animations/data/models.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 

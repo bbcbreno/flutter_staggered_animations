@@ -1,7 +1,7 @@
-import 'package:flutter_staggered_animations/models.dart';
+import 'package:flutter_staggered_animations/data/models.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
-import 'package:flutter_staggered_animations/video_card.dart';
+import 'package:flutter_staggered_animations/ui/video_card.dart';
 
 class ArtistDetailsPage extends StatelessWidget {
   ArtistDetailsPage(this.artist);
