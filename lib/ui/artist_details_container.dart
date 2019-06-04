@@ -27,6 +27,9 @@ class _ArtistsDetailsAnimatorState extends State<ArtistsDetailsAnimator>
 
   @override
   Widget build(BuildContext context) {
-    return ArtistDetailsPage(MockData.andy);
+    return ArtistDetailsPage(
+      artist: MockData.andy,
+      controller: _controller,
+    );
   }
 }
